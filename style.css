@@ -1,0 +1,35 @@
+:root {
+    --section1: #1abc9c
+    --section2: #474e5d
+    --section3: #ffffff
+    --section4: #242424
+    --footer: #2f2f2f
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-style: 'Lato', sans serif;
+}
+
+div#section1 {
+    background-color: #1abc9c;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.test > h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
