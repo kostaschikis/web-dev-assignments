@@ -18,6 +18,10 @@ h2 {
     font-size: 1.2rem;
 }
 
+py-1 {
+    padding: 1.2rem;
+}
+
 div#section1 {
     background-color: #1abc9c;
 }
@@ -38,11 +42,23 @@ div#section3 {
     align-items: center;
     align-content: center;
     text-align: center;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
 }
 
 .flex > h2 {
     margin: 1.5rem;
+}
+
+#section1 img {
+    margin: 1.2rem;
+}
+
+#section2 h2 {
+    margin: 1.2rem;
+}
+
+#section3 > h2 {
+    margin: 1.2rem;
 }
 
 @media only screen and (min-width: 1200px ) {
