@@ -49,6 +49,14 @@ div#section3 {
     margin: 1.5rem;
 }
 
+.light-red {
+    background-color: #f2dede;
+}
+
+.light-green {
+    background-color: #dff0d8;
+}
+
 #section1 img {
     margin: 1.2rem;
 }
