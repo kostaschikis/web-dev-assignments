@@ -19,10 +19,10 @@ body {
     height: 80vh;
 }
 
-
 a.nav-link:focus {
     color: red;
-    background-color: #22BFA0;
+	background: rgb(34,191,160);
+	background: linear-gradient(90deg, rgba(34,191,160,1) 0%, rgba(0,241,193,1) 100%);
     border-radius: 10px;
     opacity: 0.8;
     -moz-box-shadow:    3px 3px 5px #ccc;
