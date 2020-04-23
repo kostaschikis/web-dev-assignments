@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -7,32 +11,56 @@ body {
 
 #navbar {
     font-size: 1.2rem;
+    transition: background 0.5s ease-in-out;
 }
 
 #logo {
     width: 60px;
 }
 
+#about-us {
+    /* background-color: #474e5d; */
+    background-color: #2F4858;
+}
+
+a.nav-link {
+    transition: color 0.5s ease-in-out;
+}
+
+/* Navbar Scrolled */
+.scrolled {
+    background: transparent !important;
+}
+
+.scrolled a.nav-link {
+    color: #fff !important;
+}
+
 /* Carousel Images */
 .carousel-item .img-fluid {
     width:100%;
-    height: 80vh;
+    height: 93vh;
 }
 
-a.nav-link:focus {
-    color: red;
-	background: rgb(34,191,160);
-	background: linear-gradient(90deg, rgba(34,191,160,1) 0%, rgba(0,241,193,1) 100%);
-    border-radius: 10px;
-    opacity: 0.8;
-    -moz-box-shadow:    3px 3px 5px #ccc;
-    -webkit-box-shadow: 3px 3px 5px #ccc;
-    box-shadow:         3px 3px 5px  #ccc;
+li.active a.nav-link {
+    background: rgb(34,191,160) !important;
+	background: linear-gradient(90deg, rgba(34,191,160,1) 0%, rgba(0,241,193,1) 100%) !important;
+    border-radius: 10px !important;
+    opacity: 0.8 !important;
+    -moz-box-shadow:    3px 3px 5px #ccc !important;
+    -webkit-box-shadow: 3px 3px 5px #ccc !important;
+    box-shadow:         1px 1px 5px  #ccc !important;
 }
 
 /* Carousel Images For Mobile Screens */
 @media (max-width: 767.98px) {
     .carousel-item .img-fluid {
         height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 1200px ) {
+    .video {
+        width: 50vw;
     }
 }
