@@ -64,3 +64,14 @@ li.active a.nav-link {
         width: 50vw;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-light {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.377);
+    }
+
+    .scrolled a.nav-link {
+        color: rgba(0,0,0,.7) !important;
+    }
+}
