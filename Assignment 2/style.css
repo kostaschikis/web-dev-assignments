@@ -19,7 +19,6 @@ body {
 }
 
 #about-us {
-    /* background-color: #474e5d; */
     background-color: #2F4858;
 }
 
@@ -33,6 +32,10 @@ body {
 
 #our-team {
     background-color: #f5f5f5;
+}
+
+#testimonials {
+    background-color: #2F4858;
 }
 
 a.nav-link {
@@ -62,6 +65,14 @@ li.active a.nav-link {
     -moz-box-shadow:    3px 3px 5px #ccc !important;
     -webkit-box-shadow: 3px 3px 5px #ccc !important;
     box-shadow:         1px 1px 5px  #ccc !important;
+}
+
+#testimoCarousel .carousel-inner {
+    margin-bottom: 2rem;
+}
+
+#testimoCarousel .carousel-indicators {
+    bottom: -50px;
 }
 
 /* Carousel Images For Mobile Screens */
