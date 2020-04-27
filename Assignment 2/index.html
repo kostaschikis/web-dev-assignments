@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <script src="https://kit.fontawesome.com/6218de5707.js" crossorigin="anonymous"></script>
+
   <!-- Custon Style -->
   <link rel="stylesheet" href="style.css">
   
@@ -240,8 +242,84 @@
 
 <!-- Section 6: Contact Us -->
 <div class="container-fluid py-4" id="contact">
+  <div class="row text-center justify-content-center text-light mb-3">
+    <h2>Contact Us</h2>
+  </div>
+  <!-- Maps & Info -->
+  <div class="row">
+    <div class="col-md-6">
+      <img src="./img/map.png" alt="" class="img img-fluid w-80 p-2">
+    </div>
+    <div class="col-md-5 text-center justify-content-center text-light">
+      <h4 class="p-2">Contact Address</h4>
+      <p> <i class="fas fa-home"></i> Tech Data, Belgium</p>
+      <p> <i class="fas fa-phone"></i> Tel: +30-123456-78-9</p>
+    </div>
+  </div>
+  <!-- Contact Modal -->
+  <div class="row mt-3 justify-content-center">
+    <!-- Button: Contact Modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactmodal">
+      Contact Form
+    </button>
 
+    <!-- Contact Form Modal -->
+    <div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Form</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-user"></i></div>
+                </div>
+                <input type="text" class="form-control" name="name" placeholder="First Name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                </div>
+                <input type="email" class="form-control" name="email" placeholder="you@example.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fa fa-comment"></i></div>
+                </div>
+                <textarea class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+            </div>
+            <!-- Submit -->
+            <div class="text-center">
+                <input type="submit" value="Submit" class="btn btn-primary btn-block rounded-0 py-2">
+            </div>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Footer -->
+<footer class="py-4">
+  All Rights Reserved &copy; Kostas Chikimtzis <a href="https://unipi.gr">unipi.gr</a>
+</footer>
 
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
