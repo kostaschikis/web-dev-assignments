@@ -17,3 +17,8 @@ Web programming course optional assignments.
 * Bootstrap Carousel
 * Bootstrap Form
 * Bootstrap Image & Video
+
+## What I Learned
+
+* Responsive Web Design
+* Bootstrap Grid System
