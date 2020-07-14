@@ -1,4 +1,4 @@
-# [DS-535](https://www.ds.unipi.gr/en/courses/web-programming-2/) Web Programming 🎓
+# [DS-535](https://www.ds.unipi.gr/en/courses/web-programming-2/) | Web Programming 🎓
 
 Web programming course optional assignments.
 
